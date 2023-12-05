@@ -1,0 +1,50 @@
+.tags{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.tags header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.places{
+    list-style: none;
+    background-color: white;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 16px;
+    margin: inherit;
+}
+.places li{
+    margin-bottom: 16px;
+}
+
+.city{
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+}
+.city:hover{
+    background-color: black;
+    color: white;
+    padding: 0px 8px;
+    font-size: 13px;
+    cursor: context-menu;
+}
+.city:focus-within{
+    background-color: red;
+}
+.tags button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+   padding: 5px;
+}
+.tags button:hover{
+    background-color: #ccc;
+}

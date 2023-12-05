@@ -1,0 +1,54 @@
+
+.blog_Input{
+    width: 40%;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title label{
+    font-weight: 500;
+    font-size: 16px;
+}
+.title input,textarea{
+    padding: 5px 10px;
+    border:none ;
+    border-radius: 2px;
+}
+:focus-visible {
+    outline: none;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.2), 0 4px 16px 0 rgba(0,0,0,0.19);
+}
+.title textarea{
+    resize:none;
+}
+.blog_preview{
+    width: 100%;
+}
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: inherit!important;
+    color: fieldtext !important;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button{
+    padding: 8px 25px;
+    border: transparent;
+    background-color: rgb(30, 30, 35);
+    color: white;
+    cursor: pointer;
+}
+.button button:hover{
+    opacity: 0.9;
+}

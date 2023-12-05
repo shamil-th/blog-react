@@ -1,0 +1,9 @@
+.form_section{
+    display: flex;
+    gap: 30px;
+}
+.footer{
+    max-width: 100%;
+    background-color: #616161;
+    padding:30px;
+}

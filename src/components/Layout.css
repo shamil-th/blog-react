@@ -1,0 +1,17 @@
+.content{
+    max-width: 1400px;
+    padding: 30px 15px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.cardBody{
+    max-width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.titleCards{
+    width: 66.6666%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

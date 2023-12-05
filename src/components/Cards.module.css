@@ -1,0 +1,71 @@
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.titleDescription{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.titleDescription span{
+    font-size: 18px;
+    opacity: 0.6;
+}
+.cardDetails{
+    padding: 10px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.cardimg{
+    width: 100%;
+    height: 255px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.text{
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin-top: inherit;
+    line-height: 24px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+.card button{
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+    color: #000;
+    background-color: #fff;
+    font-size: 15px;
+   font-weight: bolder;
+}
+.card button:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all 100ms;
+}
+.card button span{
+    font-size: 13px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.comments{
+    padding: 12px 24px;
+    margin: inherit;
+}
+.comments span{
+background-color: black;
+color: white;
+padding: 0 8px;
+}

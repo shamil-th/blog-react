@@ -1,0 +1,47 @@
+.popularPostsCard{
+    width: 100%;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.popularPostsCard h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.popularPostsCard ul{
+    margin: inherit;
+    padding: inherit;
+}
+.popularPostsCard ul li{
+    margin: inherit;
+}
+
+.postlist li{
+    max-width: 100%;
+    background-color: white;
+    padding: 16px 16px;
+    display: flex;
+    gap: 15px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;;  
+}
+.postlist li:hover{
+    background-color: #ccc;
+}
+.postlist li img{
+    width: 50px;
+}
+.postDetails p{
+    margin: inherit;
+}
+.postDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.title{
+    font-size: 18px;
+}
+.description{
+    font-size: 15px;
+}

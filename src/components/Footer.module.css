@@ -1,0 +1,40 @@
+.footer{
+    max-width: 100%;
+    background-color: #616161;
+    padding:40px;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+.buttons button{
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.buttons button:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.buttons span{
+    font-size: 12px;
+}
+.next{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.previous{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+.footer p{
+    color: #fff;
+}
+.footer p a{
+    color: #fff;
+}
